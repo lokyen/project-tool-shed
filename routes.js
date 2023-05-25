@@ -759,7 +759,7 @@ module.exports = (app, models, sequelize) => {
 		});
 
 		if (one_review) {
-			res.redirect(`/user/me`);
+			res.redirect(`/`);
 		} else {
 			res.status(500);
 		}
